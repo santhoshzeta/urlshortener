@@ -1,0 +1,41 @@
+{% extends "urlshortenerapp/base.html" %}
+{% block content %}
+<div class="jumbotron text-center">
+    <h2>URL Visit statistics</h2>
+        <form>
+            <div class="input-group">
+                <div class="col-mg-10 col-lg-offset-5">  
+                    <input id="url-field" class="form-control" size="50" placeholder="Enter a link for which you want to retrieve stats..." required></br>
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-shorten">RETRIEVE</button>
+                    </div>
+                    <div id="stats" class="col-md-8 .offset-md-3" style="text-align: center;">
+                    </div>
+                </div>
+            </div>
+        </form>
+</div>
+<script>
+        $('.btn-shorten').on('click', function(){
+            $.ajax({
+                url: '/urlshortener/retrievestats/',
+                type: 'POST',
+                dataType: 'JSON',
+                data: {shorturl: $('#url-field').val()},
+                    success: function(data){
+                        var resultHTML = ''
+                        if(data.success){
+                            resultHTML = '<label name="statslabel"><h4 style="text-align: center; color:green">Total Page Visits: ' + data.count+'</h4></label>';
+                        }else{
+                            resultHTML = '<label name="statslabel"><h4 style="text-align: center; color:red">Oops!! Invalid url</h4></label>';
+                        }
+                        $('#stats').html(resultHTML);
+                        $('#stats').hide().fadeIn('slow');
+                    }
+            });           
+        });
+</script>
+{% endblock content %}
+
+        
+        

@@ -1,0 +1,8 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/Library/Frameworks/Python.framework/Versions/3.6/bin/flake8",
+    "python.linting.flake8Args": [
+        "--ignore=E201,E202,E203,E211,E221,E222,E241,E251,E271,E272,E501"
+    ]
+}

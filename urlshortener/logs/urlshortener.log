@@ -1,0 +1,105 @@
+"GET /urlshortener/home/ HTTP/1.1" 200 4700
+"GET /static/urlshortenerapp/style.css HTTP/1.1" 304 0
+"GET /static/urlshortenerapp/images/logo.png HTTP/1.1" 304 0
+"GET /urlshortener/home/ HTTP/1.1" 200 4700
+"GET /static/urlshortenerapp/style.css HTTP/1.1" 304 0
+"GET /static/urlshortenerapp/images/logo.png HTTP/1.1" 304 0
+"GET /urlshortener/home/ HTTP/1.1" 200 4700
+"GET /static/urlshortenerapp/style.css HTTP/1.1" 304 0
+"GET /static/urlshortenerapp/images/logo.png HTTP/1.1" 304 0
+"GET /urlshortener/home/ HTTP/1.1" 200 4700
+"GET /static/urlshortenerapp/style.css HTTP/1.1" 304 0
+"GET /static/urlshortenerapp/images/logo.png HTTP/1.1" 304 0
+INFO "GET /urlshortener/home/ HTTP/1.1" 200 4700
+INFO "GET /static/urlshortenerapp/style.css HTTP/1.1" 304 0
+INFO "GET /static/urlshortenerapp/images/logo.png HTTP/1.1" 304 0
+INFO 2017-11-29 23:50:51,797 basehttp 57141 123145312813056 "GET /urlshortener/home/ HTTP/1.1" 200 4700
+INFO 2017-11-29 23:50:51,842 basehttp 57141 123145312813056 "GET /static/urlshortenerapp/style.css HTTP/1.1" 304 0
+INFO 2017-11-29 23:50:51,937 basehttp 57141 123145312813056 "GET /static/urlshortenerapp/images/logo.png HTTP/1.1" 304 0
+ERROR 2017-11-30 00:01:59,019 basehttp 57606 123145312813056 "GET /urlshortener/home/ HTTP/1.1" 500 67165
+ERROR 2017-11-30 00:02:21,343 basehttp 57631 123145312813056 "GET /urlshortener/home/ HTTP/1.1" 500 67166
+ERROR 2017-11-30 00:02:22,581 basehttp 57631 123145312813056 "GET /urlshortener/home/ HTTP/1.1" 500 67166
+INFO 2017-11-30 00:02:37,727 basehttp 57682 123145312813056 "GET /urlshortener/home/ HTTP/1.1" 200 4700
+INFO 2017-11-30 00:02:37,801 basehttp 57682 123145312813056 "GET /static/urlshortenerapp/style.css HTTP/1.1" 304 0
+INFO 2017-11-30 00:02:38,299 basehttp 57682 123145312813056 "GET /static/urlshortenerapp/images/logo.png HTTP/1.1" 304 0
+INFO 2017-11-30 00:11:30,676 basehttp 57682 123145312813056 "GET /urlshortener/home/ HTTP/1.1" 200 4700
+INFO 2017-11-30 00:11:30,801 basehttp 57682 123145312813056 "GET /static/urlshortenerapp/style.css HTTP/1.1" 304 0
+INFO 2017-11-30 00:11:30,940 basehttp 57682 123145312813056 "GET /static/urlshortenerapp/images/logo.png HTTP/1.1" 304 0
+INFO 2017-11-30 00:11:33,208 basehttp 57682 123145312813056 "GET /urlshortener/home/ HTTP/1.1" 200 4700
+INFO 2017-11-30 00:11:33,251 basehttp 57682 123145312813056 "GET /static/urlshortenerapp/style.css HTTP/1.1" 304 0
+INFO 2017-11-30 00:11:33,338 basehttp 57682 123145312813056 "GET /static/urlshortenerapp/images/logo.png HTTP/1.1" 304 0
+INFO 2017-11-30 00:13:00,646 /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/servers/basehttp.py "GET /urlshortener/home/ HTTP/1.1" 200 4700
+INFO 2017-11-30 00:13:00,707 /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/servers/basehttp.py "GET /static/urlshortenerapp/style.css HTTP/1.1" 304 0
+INFO 2017-11-30 00:13:00,919 /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/servers/basehttp.py "GET /static/urlshortenerapp/images/logo.png HTTP/1.1" 304 0
+INFO 2017-11-30 00:15:48,996 /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/servers/basehttp.py "GET /urlshortener/home/ HTTP/1.1" 200 4700
+INFO 2017-11-30 00:15:49,076 /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/servers/basehttp.py "GET /static/urlshortenerapp/style.css HTTP/1.1" 304 0
+INFO 2017-11-30 00:15:49,370 /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/servers/basehttp.py "GET /static/urlshortenerapp/images/logo.png HTTP/1.1" 304 0
+INFO 2017-11-30 00:19:25,169 basehttp 58243 123145312813056 "GET /urlshortener/home/ HTTP/1.1" 200 4700
+INFO 2017-11-30 00:19:25,285 basehttp 58243 123145312813056 "GET /static/urlshortenerapp/style.css HTTP/1.1" 304 0
+INFO 2017-11-30 00:19:26,122 basehttp 58243 123145318068224 "GET /static/urlshortenerapp/images/logo.png HTTP/1.1" 304 0
+INFO 2017-11-30 00:19:50,650 views 58262 123145312813056 Hi
+DEBUG 2017-11-30 00:19:50,651 views 58262 123145312813056 Hi
+ERROR 2017-11-30 00:19:50,651 views 58262 123145312813056 Hi
+INFO 2017-11-30 00:19:50,661 basehttp 58262 123145312813056 "GET /urlshortener/home/ HTTP/1.1" 200 4700
+INFO 2017-11-30 00:19:50,724 basehttp 58262 123145312813056 "GET /static/urlshortenerapp/style.css HTTP/1.1" 304 0
+INFO 2017-11-30 00:19:51,050 basehttp 58262 123145312813056 "GET /static/urlshortenerapp/images/logo.png HTTP/1.1" 304 0
+INFO 2017-11-30 00:22:57,064 views views.py 123145312813056 Hi
+DEBUG 2017-11-30 00:22:57,065 views views.py 123145312813056 Hi
+ERROR 2017-11-30 00:22:57,065 views views.py 123145312813056 Hi
+INFO 2017-11-30 00:22:57,075 basehttp basehttp.py 123145312813056 "GET /urlshortener/home/ HTTP/1.1" 200 4700
+INFO 2017-11-30 00:22:57,138 basehttp basehttp.py 123145312813056 "GET /static/urlshortenerapp/style.css HTTP/1.1" 304 0
+INFO 2017-11-30 00:22:57,384 basehttp basehttp.py 123145312813056 "GET /static/urlshortenerapp/images/logo.png HTTP/1.1" 304 0
+INFO 2017-11-30 00:29:13,514 views 123145312813056 Hi
+DEBUG 2017-11-30 00:29:13,515 views 123145312813056 Hi
+ERROR 2017-11-30 00:29:13,515 views 123145312813056 Hi
+DEBUG 2017-11-30 00:31:09,786 views 123145312813056 List of last 100 urls <QuerySet [<Url: Url object>, <Url: Url object>, <Url: Url object>, <Url: Url object>, <Url: Url object>, <Url: Url object>, <Url: Url object>, <Url: Url object>, <Url: Url object>, <Url: Url object>, <Url: Url object>, <Url: Url object>, <Url: Url object>, <Url: Url object>, <Url: Url object>, <Url: Url object>]>
+DEBUG 2017-11-30 00:32:39,432 views 123145312813056 List of last 100 urls <QuerySet [<Url: http://www.airbnb.com>, <Url: http://www.instagram.com>, <Url: http://www.snapchat.com>, <Url: http://www.forbes.com>, <Url: http://www.ndtv.com>, <Url: http://disqus.com>, <Url: http://www.pinterest.com>, <Url: http://www.zetaglobal.com>, <Url: https://www.facebook.com>, <Url: http://www.facebook.com>, <Url: http://zetaglobal.com/about>, <Url: http://zetaglobal.com/zetahub>, <Url: http://zetaglobal.com/actions>, <Url: http://www.disqus.com>, <Url: http://www.google.com>, <Url: www.google.com>]>
+INFO 2017-11-30 00:39:33,050 views 123145312813056 Retrieving stats for http://127.0.0.1:8000/3YW
+INFO 2017-11-30 00:40:45,773 views 123145312813056 Retrieving stats for http://127.0.0.1:8000/3YW
+INFO 2017-11-30 00:41:24,565 views 123145312813056 Retrieving stats for http://127.0.0.1:8000/3YW
+ERROR 2017-11-30 00:42:39,262 views 123145312813056 Hii
+INFO 2017-11-30 00:42:39,264 views 123145312813056 Retrieving stats for http://127.0.0.1:8000/3YW
+ERROR 2017-11-30 00:43:06,600 views 123145312813056 message
+Traceback (most recent call last):
+  File "/Users/santhoshchandran/urlshortener/urlshortenerapp/views.py", line 58, in retrievestats
+    1/0
+ZeroDivisionError: division by zero
+INFO 2017-11-30 00:43:06,602 views 123145312813056 Retrieving stats for http://127.0.0.1:8000/3YW
+ERROR 2017-11-30 00:45:03,503 views 123145312813056 message
+Traceback (most recent call last):
+  File "/Users/santhoshchandran/urlshortener/urlshortenerapp/views.py", line 58, in retrievestats
+    1/0
+ZeroDivisionError: division by zero
+INFO 2017-11-30 00:45:03,504 views 123145312813056 Retrieving stats for http://127.0.0.1:8000/3YW
+ERROR 2017-11-30 00:45:32,783 views 123145312813056 message
+Traceback (most recent call last):
+  File "/Users/santhoshchandran/urlshortener/urlshortenerapp/views.py", line 58, in retrievestats
+    1/0
+ZeroDivisionError: division by zero
+INFO 2017-11-30 00:45:32,783 views 123145312813056 Retrieving stats for http://127.0.0.1:8000/3YW
+INFO 2017-11-30 00:46:05,339 views 123145312813056 Retrieving stats for http://127.0.0.1:8000/3YW
+INFO 2017-11-30 00:46:16,030 views 123145312813056 Retrieving stats for http://127.0.0.1:8000/3YW
+ERROR 2017-11-30 00:46:37,256 views 123145312813056 division by zero
+Traceback (most recent call last):
+  File "/Users/santhoshchandran/urlshortener/urlshortenerapp/views.py", line 58, in retrievestats
+    1/0
+ZeroDivisionError: division by zero
+INFO 2017-11-30 00:46:37,256 views 123145312813056 Retrieving stats for http://127.0.0.1:8000/3YW
+INFO 2017-11-30 00:49:07,965 views 123145312813056 Retrieving stats for http://127.0.0.1:8000/3YW
+INFO 2017-11-30 00:49:16,911 views 123145312813056 Retrieving stats for http://127.0.0.1:8000/3YW
+DEBUG 2017-11-30 00:49:40,513 views 123145312813056 division by zero
+Traceback (most recent call last):
+  File "/Users/santhoshchandran/urlshortener/urlshortenerapp/views.py", line 58, in retrievestats
+    1/0
+ZeroDivisionError: division by zero
+INFO 2017-11-30 00:49:40,514 views 123145312813056 Retrieving stats for http://127.0.0.1:8000/3YW
+DEBUG 2017-11-30 00:50:09,295 views 123145312813056 division by zero
+INFO 2017-11-30 00:50:09,295 views 123145312813056 Retrieving stats for http://127.0.0.1:8000/3YW
+DEBUG 2017-11-30 00:53:11,006 views 123145312813056 Redirect request received for /3YW
+INFO 2017-11-30 00:54:55,308 views 123145312813056 Received request to shorten url: http://www.google.com
+INFO 2017-11-30 00:54:55,323 views 123145312813056 Shortened url: http://127.0.0.1:8000/3Yv
+DEBUG 2017-11-30 00:54:58,959 views 123145312813056 Redirect request received for: /3Yv
+DEBUG 2017-11-30 00:54:58,980 views 123145312813056 Url visit saved successfully into the DB with the id 15
+DEBUG 2017-11-30 01:01:11,326 views last100urls 45 List of last 100 urls: <QuerySet [<Url: http://www.airbnb.com>, <Url: http://www.instagram.com>, <Url: http://www.snapchat.com>, <Url: http://www.forbes.com>, <Url: http://www.ndtv.com>, <Url: http://disqus.com>, <Url: http://www.pinterest.com>, <Url: http://www.zetaglobal.com>, <Url: https://www.facebook.com>, <Url: http://www.facebook.com>, <Url: http://zetaglobal.com/about>, <Url: http://zetaglobal.com/zetahub>, <Url: http://zetaglobal.com/actions>, <Url: http://www.disqus.com>, <Url: http://www.google.com>, <Url: www.google.com>]>
+DEBUG 2017-11-30 01:01:54,344 views last100urls 45 >>> List of last 100 urls: <QuerySet [<Url: http://www.airbnb.com>, <Url: http://www.instagram.com>, <Url: http://www.snapchat.com>, <Url: http://www.forbes.com>, <Url: http://www.ndtv.com>, <Url: http://disqus.com>, <Url: http://www.pinterest.com>, <Url: http://www.zetaglobal.com>, <Url: https://www.facebook.com>, <Url: http://www.facebook.com>, <Url: http://zetaglobal.com/about>, <Url: http://zetaglobal.com/zetahub>, <Url: http://zetaglobal.com/actions>, <Url: http://www.disqus.com>, <Url: http://www.google.com>, <Url: www.google.com>]>
+DEBUG 2017-11-30 01:02:51,101 views:45 -- List of last 100 urls: <QuerySet [<Url: http://www.airbnb.com>, <Url: http://www.instagram.com>, <Url: http://www.snapchat.com>, <Url: http://www.forbes.com>, <Url: http://www.ndtv.com>, <Url: http://disqus.com>, <Url: http://www.pinterest.com>, <Url: http://www.zetaglobal.com>, <Url: https://www.facebook.com>, <Url: http://www.facebook.com>, <Url: http://zetaglobal.com/about>, <Url: http://zetaglobal.com/zetahub>, <Url: http://zetaglobal.com/actions>, <Url: http://www.disqus.com>, <Url: http://www.google.com>, <Url: www.google.com>]>

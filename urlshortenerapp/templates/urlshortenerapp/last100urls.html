@@ -1,0 +1,24 @@
+{% extends "urlshortenerapp/base.html" %}
+{% block content %}
+<div class="jumbotron text-center">
+    <h2>Last 100 shortened urls</h2>
+    <div class="col-mg-6 col-lg-offset-1">           
+    <table class="table table-striped" style="float:center">
+        <thead>
+            <tr>
+                <th style="text-align:center">URL</th>
+                <th style="text-align:center">Created time</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for url in last100urls%}  
+            <tr style="text-align:center">
+                <td>{{ url.longurl }}</td>
+                <td>{{ url.createddatetime }}</td>>
+            </tr>
+            {% endfor %}
+          </tbody>
+    </table>
+    </div>
+</div>
+{% endblock content %}

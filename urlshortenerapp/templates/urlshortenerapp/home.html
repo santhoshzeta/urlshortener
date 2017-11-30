@@ -1,0 +1,55 @@
+{% extends "urlshortenerapp/base.html" %}
+{% block content %}
+<div class="jumbotron text-center">
+    <h2>URL Shortener</h2>
+        <form>
+            <div class="input-group">
+                <div class="col-mg-10 col-lg-offset-5">  
+                    <input id="url-field" class="form-control" size="50" placeholder="Enter a link..." required></br>
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-shorten">SHORTEN</button>
+                    </div>
+                    <div id="link" class="col-md-10 .offset-lg-5" style="text-align: center;">
+                    </div>
+                </div>
+            </div>
+        </form>
+</div>
+<script>
+        $('.btn-shorten').on('click', function(){
+            var resultHTML = '';
+            if(isValidURL($('#url-field').val())){
+                $.ajax({
+                    url: '/urlshortener/shorten/',
+                    type: 'POST',
+                    dataType: 'JSON',
+                    data: {longurl: $('#url-field').val()},
+                        success: function(data){
+                            resultHTML = '<a class="result" href="' + data.shorturl + '">'
+                                + data.shorturl + '</a>';
+                            $('#link').html(resultHTML);
+                            $('#link').hide().fadeIn('slow');
+                        }
+                }); 
+            }else{
+                resultHTML = '<label name="statslabel"><h4 style="text-align: center; color:red;margin-bottom:5px">Oops!! Invalid url</h4>'
+                            +'<h6 style="text-align: center; color:red">Please enter url with a protocol(http,https etc.)</h6></label>';
+                $('#link').html(resultHTML);
+                $('#link').hide().fadeIn('slow');
+            }          
+        });
+        
+        function isValidURL(url){
+        var RegExp = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;
+
+        if(RegExp.test(url)){
+            return true;
+        }else{
+            return false;
+        }
+} 
+</script>
+{% endblock content %}
+
+        
+        
